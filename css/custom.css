@@ -1,3 +1,8 @@
+body{
+
+    font-family: Comfortaa;
+}
+
 #header .header-nav-main nav > ul > li > a {
     color: #000000;
     font-family: 'Comfortaa', sans-serif;
@@ -7,4 +12,68 @@
     font-weight: 700;
     line-height: 24px; /* 160% */
     letter-spacing: 0.9px;
+}
+
+
+#header .header-nav-main.header-nav-main-dropdown-no-borders nav > ul > li.dropdown .dropdown-menu:not(.border-top) {
+    border-radius: 20px !important;
+    padding: 20px 8px;
+}
+
+#header .header-nav-main.header-nav-main-dropdown-modern nav > ul > li.dropdown .dropdown-menu li a {
+
+    color: #000;
+font-family: Comfortaa;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 34.56px; 
+}
+
+html .btn-outline.btn-dark {
+    border-radius: 18px;
+    border: 0.5px solid #BABABA;
+    background: #FFF;
+
+    color: #000;
+text-align: center;
+font-family: Comfortaa;
+font-size: 15px !important;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.5px;
+
+}
+
+html .btn-outline.btn-dark:hover, html .btn-outline.btn-dark.hover {
+    color: #FFF;
+    background-color: #BABABA;
+    border-color: #BABABA;
+}
+.lang-svg{
+    fill: #000;
+    stroke-width: 0.2px;
+    stroke: #000;
+    width: 15px;
+height: 15px;
+flex-shrink: 0;
+
+}
+
+.home-intro {
+    background-color: #ffffff;
+}
+
+
+.home-intro p {
+    color: #010101;
+}
+
+.featured-boxes-flat .featured-box .icon-featured {
+line-height: 110px;
+}
+.featured-boxes-flat .featured-box .box-content {
+    background: #F4F4F4;
+    border-radius: 32px;
 }
