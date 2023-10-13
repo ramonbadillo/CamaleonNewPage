@@ -77,3 +77,31 @@ line-height: 110px;
     background: #F4F4F4;
     border-radius: 32px;
 }
+
+
+html body .tabs.tabs-simple .nav-tabs > li .nav-link.active, html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link.active, html body .tabs.tabs-simple .nav-tabs > li .nav-link.active:focus, html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link.active:focus, html body .tabs.tabs-simple .nav-tabs > li .nav-link:hover, html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link:hover, html body .tabs.tabs-simple .nav-tabs > li .nav-link.active:hover, html.dark body .tabs.tabs-simple .nav-tabs > li .nav-link.active:hover {
+    border-radius: 24px;
+    background: #000;
+    border-top-color: none !important;
+    /* color: #30C399; */
+    color: #FFF;
+
+text-align: center;
+font-family: Comfortaa;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 230.769% */
+}
+
+.tabs.tabs-simple .nav-tabs > li .nav-link, .tabs.tabs-simple .nav-tabs > li .nav-link:hover, .tabs.tabs-simple .nav-tabs > li .nav-link:focus {
+    text-align: center;
+font-family: Comfortaa;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 230.769% */
+}
+.tabs.tabs-simple .nav-tabs > li{
+    margin-bottom: 0px !important;
+}
